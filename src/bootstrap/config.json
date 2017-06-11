@@ -410,6 +410,7 @@
     "responsive-embed.less",
     "wells.less",
     "close.less",
+    "component-animations.less",
     "dropdowns.less",
     "tooltip.less",
     "popovers.less",
@@ -417,5 +418,5 @@
     "carousel.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=9615197cb35b32f56fc26ba4ed2a8959"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=1a6747421887bd40d215afea34aa8ed1"
 }
