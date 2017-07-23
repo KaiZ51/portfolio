@@ -1,19 +1,35 @@
 import React, {Component} from 'react';
-import {Row, Col, Image} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
+import Project from "./Project";
 
 class Projects extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            projects: [
+                {
+                    title: 'Title',
+                    content: 'Content'
+                },
+                {
+                    title: 'Another Title',
+                    content: 'Another content'
+                }
+            ]
+        };
+    }
+
+    renderProjects() {
+        return this.state.projects.map(function (currentValue, index) {
+            return <Project key={index} title={currentValue.title} content={currentValue.content}/>;
+        });
+    }
+
     render() {
         return (
             <Row>
-                <Row>
-                    <Col lg={3}>
-                        <Image src="http://via.placeholder.com/250x150"/>
-                    </Col>
-                    <Col lg={9}>
-                        <Row><h4>Title</h4></Row>
-                        <Row><h5>Content</h5></Row>
-                    </Col>
-                </Row>
+                {this.renderProjects()}
             </Row>
         )
     }
