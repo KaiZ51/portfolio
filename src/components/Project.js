@@ -8,15 +8,15 @@ class Project extends Component {
 
     render() {
         return (
-            <Row style={{paddingBottom: '5%'}}>
-                <Col lg={3}>
-                    <Image src="http://via.placeholder.com/250x150"/>
+            <Col xs={12} style={{paddingBottom: '5%'}}>
+                <Col sm={3}>
+                    <Image className="center-block" src="http://via.placeholder.com/250x150" responsive/>
                 </Col>
-                <Col lg={9}>
+                <Col sm={9}>
                     <Row><h4>{this.props.title}</h4></Row>
                     <Row><h5>{this.props.content}</h5></Row>
                 </Col>
-            </Row>
+            </Col>
         )
     }
 }
