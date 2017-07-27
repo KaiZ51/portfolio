@@ -28,7 +28,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <Row>
+            <Row style={{paddingTop: '2%'}}>
                 {this.renderProjects()}
             </Row>
         )
