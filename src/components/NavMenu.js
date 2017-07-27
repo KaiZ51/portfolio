@@ -13,15 +13,19 @@ class NavMenu extends Component {
                             <Link to="/">Pedro Silva</Link>
                             <div style={{fontSize: 10}}>Software Developer</div>
                         </Navbar.Brand>
-                        <Navbar.Toggle />
+                        <Navbar.Toggle/>
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav>
                             <LinkContainer to="/projects">
                                 <NavItem eventKey={1}>Projects</NavItem>
                             </LinkContainer>
-                            <NavItem eventKey={2} href="#">About Me</NavItem>
-                            <NavItem eventKey={3} href="#">Contacts</NavItem>
+                            <LinkContainer to="/aboutme">
+                                <NavItem eventKey={2}>About Me</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/contacts">
+                                <NavItem eventKey={3}>Contacts</NavItem>
+                            </LinkContainer>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
