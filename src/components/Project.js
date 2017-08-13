@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Row, Col, Image, Carousel} from 'react-bootstrap';
+import {Row, Col, Carousel} from 'react-bootstrap';
 
 class Project extends Component {
     constructor(props) {

@@ -11,6 +11,9 @@ import readr_img1 from '../images/readr/categories.png';
 import readr_img2 from '../images/readr/newslist.png';
 import readr_img3 from '../images/readr/article.png';
 import readr_img4 from '../images/readr/settings.png';
+import cubr_img1 from '../images/cubr/title.png';
+import cubr_img2 from '../images/cubr/gameplay.png';
+import cubr_img3 from '../images/cubr/finish.png';
 
 class Projects extends Component {
     constructor(props) {
@@ -36,6 +39,15 @@ class Projects extends Component {
                     'Notifications can also be set, so that the user knows when new articles have been posted.<br>' +
                     'The news articles are retrieved from NewsAPI.',
                     images: [readr_img1, readr_img2, readr_img3, readr_img4]
+                },
+                {
+                    title: 'Cubr',
+                    content: 'Cubr is a game developed in the Unity game engine, with heavy influences from old school ' +
+                    'classics such as Q Bert.<br>' +
+                    'On each level, the player has to paint all the cubes to red, and at the same time avoid the ' +
+                    'enemies traversing the level.<br>' +
+                    'If the player runs out of lives, the game ends.',
+                    images: [cubr_img1, cubr_img2, cubr_img3]
                 }
             ]
         };
