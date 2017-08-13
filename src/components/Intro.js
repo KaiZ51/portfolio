@@ -5,7 +5,7 @@ import {Row, Col, Image} from 'react-bootstrap';
 class Intro extends Component {
     render() {
         return (
-            <Row style={{paddingTop: '2%'}}>
+            <Row style={{paddingTop: '50px'}}>
                 <Col>
                     <Image className="center-block" src="http://via.placeholder.com/100x100" circle/>
                 </Col>

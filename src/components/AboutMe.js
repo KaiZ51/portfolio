@@ -4,7 +4,7 @@ import {Row, Col} from 'react-bootstrap';
 class AboutMe extends Component {
     render() {
         return (
-            <Row className="text-center" style={{paddingTop: '2%'}}>
+            <Row className="text-center" style={{paddingTop: '50px'}}>
                 <h3>Myself</h3>
                 <h5>My name is Pedro Silva, and I'm a guy from Portugal.</h5>
                 <h5>I've recently graduated from a Bachelor's degree in Computer Science.</h5>

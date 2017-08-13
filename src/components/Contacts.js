@@ -4,7 +4,7 @@ import {Row, Col, Table} from 'react-bootstrap';
 class Contacts extends Component {
     render() {
         return (
-            <Row className="text-center" style={{paddingTop: '2%'}}>
+            <Row className="text-center" style={{paddingTop: '50px'}}>
                 <h5>Below are some places where you can find me:</h5>
                 <Col className="center-block" style={{width: '50%', paddingTop: '2%'}}>
                     <Table bordered hover>

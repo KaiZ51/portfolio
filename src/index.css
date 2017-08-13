@@ -2,3 +2,15 @@
     background-image: none !important;
     filter: none !important;
 }
+
+@media (min-width: 992px) {
+    #col_content {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    #project_title {
+        padding-top: 50px;
+    }
+}
