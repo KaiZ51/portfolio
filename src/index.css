@@ -7,6 +7,11 @@
     #col_content {
         padding-left: 50px;
     }
+
+    .about-padding {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 }
 
 @media (max-width: 991px) {
