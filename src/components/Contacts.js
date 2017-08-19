@@ -7,12 +7,12 @@ class Contacts extends Component {
             <Row className="text-center" style={{paddingTop: '50px'}}>
                 <h5>Below are some places where you can find me:</h5>
                 <Col className="center-block" style={{width: '50%', paddingTop: '2%'}}>
-                    <Table bordered hover>
+                    <Table bordered>
                         <tbody>
                         <tr>
-                            <td>Email</td>
-                            <td>GitHub</td>
-                            <td>LinkedIn</td>
+                            <td><a href="mailto:webmaster@example.com">Email</a></td>
+                            <td><a href="#">GitHub</a></td>
+                            <td><a href="#">LinkedIn</a></td>
                         </tr>
                         </tbody>
                     </Table>
