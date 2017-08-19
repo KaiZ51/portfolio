@@ -9,14 +9,14 @@ class NavMenu extends Component {
             <Row>
                 <Navbar collapseOnSelect>
                     <Navbar.Header>
-                        <Navbar.Brand style={{paddingTop: '8px', paddingBottom: '8px'}}>
+                        <Navbar.Brand>
                             <Link to="/">Pedro Silva</Link>
-                            <div style={{fontSize: 10}}>Software Developer</div>
                         </Navbar.Brand>
+                        <Navbar.Text>Software Developer</Navbar.Text>
                         <Navbar.Toggle/>
                     </Navbar.Header>
                     <Navbar.Collapse>
-                        <Nav>
+                        <Nav pullRight>
                             <LinkContainer to="/projects">
                                 <NavItem eventKey={1}>Projects</NavItem>
                             </LinkContainer>
