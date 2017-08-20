@@ -20,7 +20,15 @@ module.exports = {
             {test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/},
             {test: /\.css$/, use: ['style-loader', 'css-loader']},
             {test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/, loader: 'file-loader'},
-            {test: /\.(jpg|png)$/, loader: 'file-loader'}
+            {
+                test: /\.(png|jpe?g)$/i,
+                loaders: [
+                    'file-loader',
+                    {
+                        loader: 'image-webpack-loader'
+                    }
+                ]
+            }
         ]
     }
 };

@@ -38,7 +38,7 @@ class Projects extends Component {
                     '<p>The news articles are shown separately in different categories, according to what the user wishes ' +
                     'to see.<br>' +
                     'Notifications can also be set, so that the user knows when new articles have been posted.</p>' +
-                    '<p>The news articles are retrieved from NewsAPI.</p>',
+                    '<p>The news articles are retrieved from <a href="https://newsapi.org/">NewsAPI</a>.</p>',
                     images: [readr_img1, readr_img2, readr_img3, readr_img4],
                     height: '350px'
                 },

@@ -11,7 +11,7 @@ class Contacts extends Component {
                         <tbody>
                         <tr>
                             <td><a href="mailto:webmaster@example.com">Email</a></td>
-                            <td><a href="#">GitHub</a></td>
+                            <td><a href="https://github.com/KaiZ51">GitHub</a></td>
                             <td><a href="#">LinkedIn</a></td>
                         </tr>
                         </tbody>
