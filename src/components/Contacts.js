@@ -10,9 +10,9 @@ class Contacts extends Component {
                     <Table bordered>
                         <tbody>
                         <tr>
-                            <td><a href="mailto:webmaster@example.com">Email</a></td>
+                            <td><a href="mailto:pedrosilvadev51@gmail.com">Email</a></td>
                             <td><a href="https://github.com/KaiZ51">GitHub</a></td>
-                            <td><a href="#">LinkedIn</a></td>
+                            <td><a href="https://www.linkedin.com/in/pedro-silva-497706128/">LinkedIn</a></td>
                         </tr>
                         </tbody>
                     </Table>
