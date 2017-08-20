@@ -24,10 +24,10 @@ class Projects extends Component {
                 {
                     title: 'No Me',
                     content: '<p>No Me is a social app with the goal of letting people make new relationships.</p>' +
-                    'Unlike most other apps, it tries to persuade people to actually talk, and to forget about looks ' +
-                    'for a bit.<br>' +
-                    'To achieve that, profiles are initially shown with the user\'s picture blurred, and as they chat, ' +
-                    'it slowly gets uncovered.',
+                    '<p>Unlike most other apps, it tries to persuade people to actually talk, and to forget about looks ' +
+                    'for a bit.</p>' +
+                    '<p>To achieve that, profiles are initially shown with the user\'s picture blurred, and as they chat, ' +
+                    'it slowly gets uncovered.</p>',
                     images: [nome_img1, nome_img2, nome_img3, nome_img4, nome_img5, nome_img6],
                     height: '350px'
                 },

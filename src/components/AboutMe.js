@@ -7,8 +7,8 @@ class AboutMe extends Component {
             <Row style={{paddingTop: '25px'}}>
                 <Col xs={12} className="about-padding text-center">
                     <h2>Myself</h2>
-                    <p>My name is Pedro Silva, and I'm a software developer from Portugal.</p>
-                    <p>I've recently graduated from a Bachelor's degree in Computer Science.</p>
+                    <p>My name is <b>Pedro Silva</b>, and I'm a <b>software developer</b> from Portugal.</p>
+                    <p>I've recently graduated from a Bachelor's degree in <b>Computer Science</b>.</p>
 
                     <h2 style={{paddingTop: '30px'}}>Development experience</h2>
                     <p>So far, I've worked mainly with Android app and web development.</p>

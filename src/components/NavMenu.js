@@ -12,7 +12,6 @@ class NavMenu extends Component {
                         <Navbar.Brand>
                             <Link to="/">Pedro Silva</Link>
                         </Navbar.Brand>
-                        <Navbar.Text>Software Developer</Navbar.Text>
                         <Navbar.Toggle/>
                     </Navbar.Header>
                     <Navbar.Collapse>
