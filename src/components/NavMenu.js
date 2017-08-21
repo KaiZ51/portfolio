@@ -7,7 +7,7 @@ class NavMenu extends Component {
     render() {
         return (
             <Row>
-                <Navbar collapseOnSelect>
+                <Navbar staticTop collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <Link to="/">Pedro Silva</Link>
