@@ -11,7 +11,7 @@ class Project extends Component {
 
         return this.props.images.map(function (currentValue, index) {
             return <Carousel.Item key={index}><img className="center-block" src={currentValue}
-                                                   style={{height: height}}/></Carousel.Item>;
+                                                   style={{maxHeight: height}}/></Carousel.Item>;
         });
     }
 
