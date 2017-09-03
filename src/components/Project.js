@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import {Row, Col, Carousel} from 'react-bootstrap';
 
 class Project extends Component {
@@ -32,5 +33,12 @@ class Project extends Component {
         )
     }
 }
+
+Project.propTypes = {
+    height: PropTypes.string.isRequired,
+    images: PropTypes.array.isRequired,
+    title: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired
+};
 
 export default Project;
