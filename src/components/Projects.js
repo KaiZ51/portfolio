@@ -15,7 +15,7 @@ import cubr_img1 from '../images/cubr/title.png';
 import cubr_img2 from '../images/cubr/gameplay.png';
 import cubr_img3 from '../images/cubr/finish.png';
 
-class Projects extends Component {
+export default class Projects extends Component {
     constructor(props) {
         super(props);
 
@@ -71,5 +71,3 @@ class Projects extends Component {
         )
     }
 }
-
-export default Projects;

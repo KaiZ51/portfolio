@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {Row, Nav, Navbar, NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
-class NavMenu extends Component {
+export default class NavMenu extends Component {
     render() {
         return (
             <Row>
@@ -32,5 +32,3 @@ class NavMenu extends Component {
         )
     }
 }
-
-export default NavMenu;

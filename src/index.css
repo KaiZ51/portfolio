@@ -8,6 +8,10 @@ table a:not(.btn), .table a:not(.btn) {
     text-decoration: none;
 }
 
+.contacts-table-icon {
+    padding-right: 5px;
+}
+
 @media (min-width: 992px) {
     #col_content {
         padding-left: 50px;
@@ -17,10 +21,20 @@ table a:not(.btn), .table a:not(.btn) {
         padding-left: 20%;
         padding-right: 20%;
     }
+
+    .contacts-table {
+        width: 50%;
+        padding-top: 25px;
+    }
 }
 
 @media (max-width: 991px) {
     #project_title {
         padding-top: 50px;
+    }
+
+    .contacts-table {
+        width: 80%;
+        padding-top: 25px;
     }
 }

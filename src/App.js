@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 import {Grid} from 'react-bootstrap';
 import {Router, Route} from 'react-router-dom';
 import createHistory from 'history/createHashHistory';
-import NavMenu from './NavMenu';
-import Intro from "./Intro";
-import Projects from "./Projects";
-import AboutMe from "./AboutMe";
-import Contacts from "./Contacts";
+import NavMenu from './components/NavMenu';
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
+import AboutMe from "./components/AboutMe";
+import Contacts from "./components/Contacts";
 
-class App extends Component {
+export default class App extends Component {
     render() {
         return (
             <Grid>
@@ -25,5 +25,3 @@ class App extends Component {
         );
     }
 }
-
-export default App;

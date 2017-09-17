@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Row, Col, Carousel} from 'react-bootstrap';
 
-class Project extends Component {
+export default class Project extends Component {
     constructor(props) {
         super(props);
     }
@@ -20,7 +20,6 @@ class Project extends Component {
         return (
             <Col xs={12} style={{paddingBottom: '100px'}}>
                 <Col md={4}>
-                    {/*<Image className="center-block" src="http://via.placeholder.com/250x150" responsive/>*/}
                     <Carousel indicators={false}>
                         {this.renderImages()}
                     </Carousel>
@@ -40,5 +39,3 @@ Project.propTypes = {
     title: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired
 };
-
-export default Project;
