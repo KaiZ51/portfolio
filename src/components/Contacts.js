@@ -33,6 +33,6 @@ export default class Contacts extends Component {
                     </Table>
                 </Col>
             </Row>
-        )
+        );
     }
 }

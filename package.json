@@ -12,9 +12,9 @@
   "dependencies": {
     "history": "^4.6.2",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4",
+    "react": "^16.1.0",
     "react-bootstrap": "^0.31.3",
-    "react-dom": "^15.5.4",
+    "react-dom": "^16.1.0",
     "react-fontawesome": "^1.6.1",
     "react-router-bootstrap": "^0.24.4",
     "react-router-dom": "^4.1.1"
@@ -29,9 +29,9 @@
     "eslint": "^4.7.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.3.0",
-    "file-loader": "^0.11.2",
+    "file-loader": "^1.1.5",
     "image-webpack-loader": "^3.4.2",
-    "style-loader": "^0.18.2",
+    "style-loader": "^0.19.0",
     "webpack": "^3.6.0"
   }
 }

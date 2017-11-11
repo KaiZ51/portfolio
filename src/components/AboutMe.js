@@ -26,6 +26,6 @@ export default class AboutMe extends Component {
                     <p>I'm also very passionate about gaming and music, and love traveling whenever possible.</p>
                 </Col>
             </Row>
-        )
+        );
     }
 }

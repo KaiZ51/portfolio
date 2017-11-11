@@ -57,7 +57,7 @@ export default class Projects extends Component {
     }
 
     renderProjects() {
-        return this.state.projects.map(function (currentValue, index) {
+        return this.state.projects.map((currentValue, index) => {
             return <Project key={index} title={currentValue.title} content={currentValue.content}
                             images={currentValue.images} height={currentValue.height}/>;
         });

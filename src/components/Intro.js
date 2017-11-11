@@ -19,6 +19,6 @@ export default class Intro extends Component {
                         me</Link> after checking out my <Link to="/projects">projects</Link>.</p>
                 </Col>
             </Row>
-        )
+        );
     }
 }

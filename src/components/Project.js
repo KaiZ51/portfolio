@@ -3,16 +3,13 @@ import PropTypes from 'prop-types';
 import {Row, Col, Carousel} from 'react-bootstrap';
 
 export default class Project extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     renderImages() {
-        const height = this.props.height;
-
-        return this.props.images.map(function (currentValue, index) {
-            return <Carousel.Item key={index}><img className="center-block" src={currentValue}
-                                                   style={{maxHeight: height}}/></Carousel.Item>;
+        return this.props.images.map((currentValue, index) => {
+            return (
+                <Carousel.Item key={index}>
+                    <img className="center-block" src={currentValue} style={{maxHeight: this.props.height}}/>
+                </Carousel.Item>
+            );
         });
     }
 
@@ -29,7 +26,7 @@ export default class Project extends Component {
                     <Row><h5 dangerouslySetInnerHTML={{__html: this.props.content}}/></Row>
                 </Col>
             </Col>
-        )
+        );
     }
 }
 

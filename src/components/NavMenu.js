@@ -29,6 +29,6 @@ export default class NavMenu extends Component {
                     </Navbar.Collapse>
                 </Navbar>
             </Row>
-        )
+        );
     }
 }
