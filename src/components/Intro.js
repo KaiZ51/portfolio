@@ -16,7 +16,8 @@ export default class Intro extends Component {
                     <p>Here you can find some personal projects I've developed so far, with
                         more coming in the future.</p>
                     <p>Currently I'm available for hiring, so feel free to <Link to="/contacts">contact
-                        me</Link> after checking out my <Link to="/projects">projects</Link>.</p>
+                        me</Link> after checking out my <Link to="/projects">projects</Link> and <Link
+                        to="/aboutme"> development experience</Link>.</p>
                 </Col>
             </Row>
         );
