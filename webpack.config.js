@@ -8,7 +8,7 @@ module.exports = {
         publicPath: './dist/'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 enforce: "pre",
@@ -22,16 +22,17 @@ module.exports = {
                     presets: ["react", "env"]
                 }
             },
-            {test: /\.css$/, use: ['style-loader', 'css-loader']},
-            {test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)|\.otf($|\?)/, loader: 'file-loader'},
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)|\.otf($|\?)/,
+                use: 'file-loader'
+            },
             {
                 test: /\.(png|jpe?g)$/i,
-                loaders: [
-                    'file-loader',
-                    {
-                        loader: 'image-webpack-loader'
-                    }
-                ]
+                use: 'file-loader'
             }
         ]
     }
