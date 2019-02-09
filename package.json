@@ -12,9 +12,9 @@
   "dependencies": {
     "history": "^4.7.2",
     "prop-types": "^15.6.2",
-    "react": "^16.7.0",
+    "react": "^16.8.1",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.7.0",
+    "react-dom": "^16.8.1",
     "react-fontawesome": "^1.6.1",
     "react-router-bootstrap": "^0.24.4",
     "react-router-dom": "^4.3.1"
@@ -27,12 +27,12 @@
     "babel-loader": "^8.0.5",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
-    "eslint": "^5.12.1",
-    "eslint-loader": "^2.1.1",
+    "eslint": "^5.13.0",
+    "eslint-loader": "^2.1.2",
     "eslint-plugin-react": "^7.12.4",
     "file-loader": "^3.0.1",
     "style-loader": "^0.23.1",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1"
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
   }
 }
