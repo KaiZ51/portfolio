@@ -12,7 +12,7 @@ export default class Intro extends Component {
                 </Col>
                 <Col xs={12} className="text-center" style={{paddingTop: '15px'}}>
                     <h3>Hey there, welcome to my website!</h3>
-                    <p>I'm a <b>software developer</b>, mainly focused on <b>web/mobile</b> development.</p>
+                    <p>I'm a <b>Software Engineer</b>, mainly focused on <b>web/mobile</b> development.</p>
                     <p>Here you can find some personal projects I've developed so far, with
                         more coming in the future.</p>
                     <p>Feel free to <Link to="/contacts">contact me</Link> after checking out my <Link
